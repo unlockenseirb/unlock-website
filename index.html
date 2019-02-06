@@ -16,10 +16,12 @@ body, html {
 
 /* Full height image header */
 .bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-color: black;
+  background-image: url("./ressources/unlock_full.png");
+  background-position: 20% 50%;
+  background-color: white;
+  background-repeat: no-repeat; /* Do not repeat the image */
   min-height: 100%;
+
 }
 
 .w3-bar .w3-button {
@@ -55,12 +57,10 @@ body, html {
 </nav>
 
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small">Unlock</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Unlock</span><br>
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-right w3-text-black" style="padding:48px">
     <span class="w3-large">Un club de cybersécurite et hack dans ton école.</span>
-    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">En savoir plus</a></p>
+    <p><a href="#about" class="w3-button w3-gray w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">En savoir plus</a></p>
   </div>
 </header>
 
@@ -110,7 +110,7 @@ body, html {
 <div class="w3-container" style="padding:128px 16px" id="team">
   <h3 class="w3-center">La Team</h3>
   <p class="w3-center w3-large">Fondateurs</p>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+  <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
         <img src="https://lists.gnu.org/archive/html/emacs-devel/2015-10/pngR9b4lzUy39.png" alt="Lucas" style="width:100%">
